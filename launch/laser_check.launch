@@ -1,0 +1,4 @@
+<launch>
+  <node name="laser_check" pkg="laser_check" type="laser_check_node" output="screen" >
+  </node>
+</launch>
