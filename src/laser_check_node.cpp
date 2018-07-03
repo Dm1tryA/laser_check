@@ -185,6 +185,7 @@ void Callback_detections(const cob_perception_msgs::DetectionArray recive_detect
   {
     for (unsigned int it = 0; it < temp_detections.detections.size(); it++)
     {
+        //f22276567
         //ROS_INFO("Our new detection %i has the following lable: %s",it+1,temp_detections.detections[it].label.c_str());
         if ((temp_detections.detections[it].label == "person") && notDtectPerson)
         {
